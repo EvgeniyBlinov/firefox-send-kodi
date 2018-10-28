@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Context menu: Send to kodi",
+    "description": "Add a context menu option to send text to kodi",
+    "version": "1.0",
+
+    "background": {
+        "scripts": [
+            "variables.js",
+            "send2kodi.js",
+            "background.js"
+        ]
+    },
+
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "notifications",
+        "*://127.0.0.1/*"
+    ]
+}
